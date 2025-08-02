@@ -1,0 +1,2 @@
+2025-07-25 23:01:30,734 - egresos_detallado_bulk_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-25 23:01:31,268 - egresos_detallado_bulk_pipeline - ERROR - Pipeline run failed. See detailed logs: No valid .xlsx files found for bulk processing.

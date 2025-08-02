@@ -1,0 +1,20 @@
+2025-07-18 16:29:01,784 - balance_presupuestario_bulk_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-18 16:29:02,042 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2020 quarter=Q4
+2025-07-18 16:29:02,348 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q1
+2025-07-18 16:29:02,650 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q2
+2025-07-18 16:29:02,934 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q3
+2025-07-18 16:29:03,242 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q4
+2025-07-18 16:29:03,601 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q1
+2025-07-18 16:29:03,971 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q2
+2025-07-18 16:29:04,252 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q3
+2025-07-18 16:29:04,532 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q4
+2025-07-18 16:29:04,868 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q1
+2025-07-18 16:29:05,149 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q2
+2025-07-18 16:29:05,484 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q3
+2025-07-18 16:29:05,876 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q4
+2025-07-18 16:29:06,255 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q1
+2025-07-18 16:29:06,566 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q2
+2025-07-18 16:29:06,864 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q3
+2025-07-18 16:29:07,163 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q4
+2025-07-18 16:29:07,471 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2025 quarter=Q1
+2025-07-18 16:29:07,973 - balance_presupuestario_bulk_pipeline - INFO - Pipeline run successful

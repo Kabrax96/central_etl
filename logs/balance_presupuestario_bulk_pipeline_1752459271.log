@@ -1,0 +1,41 @@
+2025-07-13 20:14:31,749 - balance_presupuestario_bulk_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-13 20:14:35,439 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2020 quarter=Q4
+2025-07-13 20:14:35,440 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,440 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q1
+2025-07-13 20:14:35,440 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,440 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q2
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q3
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q4
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q1
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q2
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q3
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q4
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q1
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q2
+2025-07-13 20:14:35,441 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q3
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q4
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q1
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q2
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q3
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q4
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - WARNING - 400 | File None is empty or could not be read.
+2025-07-13 20:14:35,442 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2025 quarter=Q1
+2025-07-13 20:14:35,603 - balance_presupuestario_bulk_pipeline - INFO - Pipeline run successful
+2025-07-13 20:14:35,606 - balance_presupuestario_bulk_pipeline - ERROR - Pipeline run failed. See detailed logs: Failed to log metadata: (pg8000.dbapi.IntegrityError) {'S': 'ERROR', 'V': 'ERROR', 'C': '23505', 'M': 'duplicate key value violates unique constraint "pipeline_logs_pkey"', 'D': 'Key (pipeline_name, run_id)=(balance_presupuestario_bulk_pipeline, 1) already exists.', 's': 'public', 't': 'pipeline_logs', 'n': 'pipeline_logs_pkey', 'F': 'nbtinsert.c', 'L': '670', 'R': '_bt_check_unique'}
+[SQL: INSERT INTO pipeline_logs (pipeline_name, run_id, timestamp, status, config, logs) VALUES (%s::VARCHAR, %s::INTEGER, %s::TIMESTAMP WITHOUT TIME ZONE, %s::VARCHAR, %s::JSON, %s::VARCHAR)]
+[parameters: ('balance_presupuestario_bulk_pipeline', 1, datetime.datetime(2025, 7, 13, 20, 14, 35, 603640), 'success', '{}', '2025-07-13 20:14:31,749 - balance_presupuestario_bulk_pipeline - INFO - Starting dynamic bulk pipeline run\n2025-07-13 20:14:35,439 - balance_presupu ... (3996 characters truncated) ... ine - INFO - 100 | Processing year=2025 quarter=Q1\n2025-07-13 20:14:35,603 - balance_presupuestario_bulk_pipeline - INFO - Pipeline run successful\n')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)

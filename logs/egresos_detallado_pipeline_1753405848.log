@@ -1,0 +1,7 @@
+2025-07-24 19:10:48,588 - egresos_detallado_pipeline - INFO - 100 | Starting ETL pipeline for Egresos Detallado
+2025-07-24 19:10:48,590 - egresos_detallado_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-24 19:10:48,604 - egresos_detallado_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-24 19:10:49,150 - egresos_detallado_pipeline - INFO - 100 | Extracting data from S3 for year 2025 and quarter Q1
+2025-07-24 19:10:49,749 - egresos_detallado_pipeline - INFO - 200 | Data extraction from S3 completed
+2025-07-24 19:10:49,749 - egresos_detallado_pipeline - INFO - 100 | Transforming data
+2025-07-24 19:10:49,750 - egresos_detallado_pipeline - ERROR - 500 | ETL pipeline failed: Header 'II. Gasto Etiquetado' not found.

@@ -1,0 +1,4 @@
+2025-07-24 20:50:40,775 - ingresos_detallado_pipeline - INFO - 100 | Starting ETL pipeline for Ingresos Detallado
+2025-07-24 20:50:40,775 - ingresos_detallado_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-24 20:50:40,790 - ingresos_detallado_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-24 20:50:40,898 - ingresos_detallado_pipeline - ERROR - 500 | ETL pipeline failed: expected string or bytes-like object, got 'NoneType'

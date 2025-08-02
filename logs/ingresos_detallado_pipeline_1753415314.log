@@ -1,0 +1,3 @@
+2025-07-24 21:48:34,203 - ingresos_detallado_pipeline - INFO - 100 | Starting ETL pipeline for Ingresos Detallado
+2025-07-24 21:48:34,204 - ingresos_detallado_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-24 21:48:34,204 - ingresos_detallado_pipeline - ERROR - 500 | ETL pipeline failed: PostgreSqlClient.__init__() got an unexpected keyword argument 'host'

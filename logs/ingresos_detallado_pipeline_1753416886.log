@@ -1,0 +1,11 @@
+2025-07-24 22:14:46,794 - ingresos_detallado_pipeline - INFO - 100 | Starting ETL pipeline for Ingresos Detallado
+2025-07-24 22:14:46,794 - ingresos_detallado_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-24 22:14:46,807 - ingresos_detallado_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-24 22:14:47,322 - ingresos_detallado_pipeline - INFO - 100 | Extracting data for year 2025 and quarter Q1
+2025-07-24 22:14:48,067 - ingresos_detallado_pipeline - INFO - 200 | Data extraction completed
+2025-07-24 22:14:48,067 - ingresos_detallado_pipeline - INFO - 100 | Transforming data
+2025-07-24 22:14:48,072 - ingresos_detallado_pipeline - INFO - 200 | Data transformation completed
+2025-07-24 22:14:48,072 - ingresos_detallado_pipeline - INFO - 100 | Preparing PostgreSQL table schema
+2025-07-24 22:14:48,072 - ingresos_detallado_pipeline - INFO - 100 | Loading data into PostgreSQL
+2025-07-24 22:14:48,134 - ingresos_detallado_pipeline - INFO - 200 | Data successfully loaded into PostgreSQL
+2025-07-24 22:14:48,134 - ingresos_detallado_pipeline - INFO - 200 | ETL pipeline completed successfully

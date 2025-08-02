@@ -1,0 +1,23 @@
+2025-07-14 00:24:39,729 - balance_presupuestario_bulk_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-14 00:24:40,343 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2020 quarter=Q4
+2025-07-14 00:24:41,045 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q1
+2025-07-14 00:24:41,604 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q2
+2025-07-14 00:24:42,201 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q3
+2025-07-14 00:24:42,789 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2021 quarter=Q4
+2025-07-14 00:24:43,352 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q1
+2025-07-14 00:24:43,937 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q2
+2025-07-14 00:24:44,488 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q3
+2025-07-14 00:24:45,075 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2022 quarter=Q4
+2025-07-14 00:24:45,660 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q1
+2025-07-14 00:24:46,260 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q2
+2025-07-14 00:24:46,841 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q3
+2025-07-14 00:24:47,411 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2023 quarter=Q4
+2025-07-14 00:24:48,028 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q1
+2025-07-14 00:24:48,600 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q2
+2025-07-14 00:24:49,159 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q3
+2025-07-14 00:24:49,752 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2024 quarter=Q4
+2025-07-14 00:24:50,316 - balance_presupuestario_bulk_pipeline - INFO - 100 | Processing year=2025 quarter=Q1
+2025-07-14 00:24:51,008 - balance_presupuestario_bulk_pipeline - ERROR - Pipeline run failed. See detailed logs: Bulk load failed: (pg8000.dbapi.IntegrityError) {'S': 'ERROR', 'V': 'ERROR', 'C': '23505', 'M': 'duplicate key value violates unique constraint "nuevo_leon_balance_presupuestario_pkey"', 'D': 'Key (surrogate_key)=(3549af0e03d4fda854b6b5db0a811d97) already exists.', 's': 'public', 't': 'nuevo_leon_balance_presupuestario', 'n': 'nuevo_leon_balance_presupuestario_pkey', 'F': 'nbtinsert.c', 'L': '670', 'R': '_bt_check_unique'}
+[SQL: INSERT INTO nuevo_leon_balance_presupuestario (surrogate_key, concept, sublabel, year_quarter, full_date, type, amount) VALUES (%s::VARCHAR, %s::VARCHAR, %s::VARCHAR, %s::VARCHAR, %s::VARCHAR, %s::VARCHAR, %s::FLOAT)]
+[parameters: [('51022ee3346ef39bcb63dd4f8fafae08', 'A1', 'Ingresos de Libre Disposición', '2020_Q4', '2020-12-31', 'estimated_or_approved', 60299052.66084), ('ff54925b35d91b08eb5e732d93b5df12', 'A2', 'Transferencias Federales Etiquetadas', '2020_Q4', '2020-12-31', 'estimated_or_approved', 36814210.92416), ('2f4dc23c93e90e7f4a64d04ba369f1cf', 'A3', 'Financiamiento Neto', '2020_Q4', '2020-12-31', 'estimated_or_approved', 2291643.5083899996), ('538d92dda50a75d7e5edeb6b04bc6fb3', 'B1', 'Gasto No Etiquetado (sin incluir Amortización de la Deuda Pública)', '2020_Q4', '2020-12-31', 'estimated_or_approved', 64168926.71757992), ('254cc0f8dd23b8bd13e0c667bd2e05e6', 'B2', 'Gasto Etiquetado (sin incluir Amortización de la Deuda Pública) ', '2020_Q4', '2020-12-31', 'estimated_or_approved', 37372707.77522), ('375eb94c48c00afbf9067031cb1594d4', 'C1', 'Remanentes de Ingresos de Libre Disposición aplicados en el periodo', '2020_Q4', '2020-12-31', 'estimated_or_approved', 1576050.8583511997), ('85dfe81207e1784b2d9b5f92ca0762d1', 'C2', 'Remanentes de Transferencias Federales Etiquetadas aplicados en el periodo', '2020_Q4', '2020-12-31', 'estimated_or_approved', 560676.5410499998), ('ad1f4902310acb1ef50643a4bd8e2e24', 'E1', 'Intereses, Comisiones y Gastos de la Deuda con Gasto No Etiquetado', '2020_Q4', '2020-12-31', 'estimated_or_approved', 4803603.3892)  ... displaying 10 of 702 total bound parameter sets ...  ('b73fa45aff10c33f89a7a4b5707e3f42', 'G1', 'Amortización de la Deuda Pública con Gasto No Etiquetado', '2025_Q1', '2025-03-31', 'recaudado_pagado', 2723846569.49), ('c37d8141f4025d5041a9bc4a7a5096b4', 'G2', 'Amortización de la Deuda Pública con Gasto Etiquetado', '2025_Q1', '2025-03-31', 'recaudado_pagado', 6362444.86)]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)

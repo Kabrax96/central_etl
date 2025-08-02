@@ -1,0 +1,4 @@
+2025-07-12 22:53:40,677 - balance_presupuestario_pipeline - INFO - 100 | Starting ETL pipeline for Financial Data
+2025-07-12 22:53:40,677 - balance_presupuestario_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-12 22:53:40,691 - balance_presupuestario_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-12 22:53:40,691 - balance_presupuestario_pipeline - ERROR - 500 | ETL pipeline failed: [Errno 2] No such file or directory: '/Users/alexm./Desktop/Consejo_NL/app/etl_central/pipelines/../data/presupuestos'

@@ -1,0 +1,1 @@
+2025-07-13 19:55:29,908 - balance_presupuestario_bulk_pipeline - ERROR - Pipeline run failed. See detailed logs: Failed to log metadata: 'Engine' object has no attribute 'execute'

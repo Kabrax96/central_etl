@@ -1,0 +1,7 @@
+2025-07-25 14:19:43,998 - bulk_ingresos_detallado_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-25 14:19:44,599 - bulk_ingresos_detallado_pipeline - INFO - 100 | Processing year=2024 quarter=Q1
+2025-07-25 14:19:45,232 - bulk_ingresos_detallado_pipeline - INFO - 100 | Processing year=2024 quarter=Q2
+2025-07-25 14:19:45,740 - bulk_ingresos_detallado_pipeline - INFO - 100 | Processing year=2024 quarter=Q3
+2025-07-25 14:19:46,259 - bulk_ingresos_detallado_pipeline - INFO - 100 | Processing year=2024 quarter=Q4
+2025-07-25 14:19:46,786 - bulk_ingresos_detallado_pipeline - INFO - 100 | Processing year=2025 quarter=Q1
+2025-07-25 14:19:47,480 - bulk_ingresos_detallado_pipeline - INFO - Pipeline run successful

@@ -1,0 +1,10 @@
+2025-07-12 23:35:48,960 - balance_presupuestario_pipeline - INFO - 100 | Starting ETL pipeline for Financial Data
+2025-07-12 23:35:48,960 - balance_presupuestario_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-12 23:35:48,974 - balance_presupuestario_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-12 23:35:48,974 - balance_presupuestario_pipeline - INFO - 100 | Extracting data for year 2025 and quarter Q1
+2025-07-12 23:35:49,088 - balance_presupuestario_pipeline - INFO - 200 | Data extraction completed
+2025-07-12 23:35:49,088 - balance_presupuestario_pipeline - INFO - 100 | Transforming data
+2025-07-12 23:35:49,094 - balance_presupuestario_pipeline - INFO - 200 | Data transformation completed
+2025-07-12 23:35:49,094 - balance_presupuestario_pipeline - INFO - 100 | Loading data into PostgreSQL
+2025-07-12 23:35:49,134 - balance_presupuestario_pipeline - INFO - 200 | Data successfully loaded into PostgreSQL
+2025-07-12 23:35:49,134 - balance_presupuestario_pipeline - INFO - 200 | ETL pipeline completed successfully

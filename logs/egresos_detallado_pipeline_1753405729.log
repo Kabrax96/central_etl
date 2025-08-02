@@ -1,0 +1,7 @@
+2025-07-24 19:08:49,124 - egresos_detallado_pipeline - INFO - 100 | Starting ETL pipeline for Egresos Detallado
+2025-07-24 19:08:49,124 - egresos_detallado_pipeline - INFO - 100 | Initializing PostgreSQL client
+2025-07-24 19:08:49,139 - egresos_detallado_pipeline - INFO - 200 | PostgreSQL client initialized successfully
+2025-07-24 19:08:49,736 - egresos_detallado_pipeline - INFO - 100 | Extracting data from S3 for year 2025 and quarter Q1
+2025-07-24 19:08:50,761 - egresos_detallado_pipeline - INFO - 200 | Data extraction from S3 completed
+2025-07-24 19:08:50,761 - egresos_detallado_pipeline - INFO - 100 | Transforming data
+2025-07-24 19:08:50,761 - egresos_detallado_pipeline - ERROR - 500 | ETL pipeline failed: index 1 is out of bounds for axis 0 with size 0

@@ -1,0 +1,2 @@
+2025-07-25 13:48:48,215 - bulk_ingresos_detallado_pipeline - INFO - Starting dynamic bulk pipeline run
+2025-07-25 13:48:48,298 - bulk_ingresos_detallado_pipeline - ERROR - Pipeline run failed. See detailed logs: expected string or bytes-like object, got 'NoneType'
